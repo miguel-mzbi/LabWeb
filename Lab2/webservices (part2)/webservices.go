@@ -6,6 +6,8 @@ import (
 	"log"
 	"net/http"
 	"strconv"
+
+	"github.com/rs/cors"
 )
 
 // Item : ...
@@ -46,11 +48,13 @@ func getItem(w http.ResponseWriter, req *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(js)
 }
+
 func getItems(w http.ResponseWriter, req *http.Request) {
 	js, _ := json.Marshal(database)
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(js)
 }
+
 func deleteItem(w http.ResponseWriter, req *http.Request) {
 	vars := mux.Vars(req)
 	id, _ := strconv.Atoi(vars["id"])
@@ -68,12 +72,14 @@ func deleteItem(w http.ResponseWriter, req *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(js)
 }
+
 func deleteItems(w http.ResponseWriter, req *http.Request) {
 	database.Items = []Item{}
 	js, _ := json.Marshal(Message{"ITEMS DELETED"})
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(js)
 }
+
 func editItem(w http.ResponseWriter, req *http.Request) {
 	vars := mux.Vars(req)
 	id, _ := strconv.Atoi(vars["id"])
@@ -91,6 +97,7 @@ func editItem(w http.ResponseWriter, req *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(js)
 }
+
 func addItem(w http.ResponseWriter, req *http.Request) {
 	decoder := json.NewDecoder(req.Body)
 	var item Item
@@ -99,41 +106,46 @@ func addItem(w http.ResponseWriter, req *http.Request) {
 		log.Fatal(err)
 	}
 	database.addItemToDB(item)
+	js, _ := json.Marshal(item)
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
 
 }
 
-func handleIndex(w http.ResponseWriter, req *http.Request) {
-	name := "./index.html"
-	http.ServeFile(w, req, name)
+func indexHandler(entrypoint string) func(w http.ResponseWriter, req *http.Request) {
+	fn := func(w http.ResponseWriter, req *http.Request) {
+		http.ServeFile(w, req, entrypoint)
+	}
+	return http.HandlerFunc(fn)
 }
 
 func main() {
 	mxRouter := mux.NewRouter()
-	mxRouter.HandleFunc("/getItems/{id}", getItem).
+	api := mxRouter.PathPrefix("/api").Subrouter()
+	api.HandleFunc("/getItems/{id}", getItem).
 		Methods("GET")
-	mxRouter.HandleFunc("/getItems", getItems).
+	api.HandleFunc("/getItems", getItems).
 		Methods("GET")
-	mxRouter.HandleFunc("/deleteItem/{id}", deleteItem).
+	api.HandleFunc("/deleteItem/{id}", deleteItem).
 		Methods("DELETE")
-	mxRouter.HandleFunc("/deleteItems", deleteItems).
+	api.HandleFunc("/deleteItems", deleteItems).
 		Methods("DELETE")
-	mxRouter.HandleFunc("/editItem/{id}", editItem).
+	api.HandleFunc("/editItem/{id}", editItem).
 		Methods("PUT")
-	mxRouter.HandleFunc("/addItem", addItem).
+	api.HandleFunc("/addItem", addItem).
 		Methods("POST")
-	log.Println(http.Dir("./static/"))
 
-	fs := http.FileServer(http.Dir("./public"))
-	mxRouter.PathPrefix("/").Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		if r.URL.Path == "/" {
-			//your default page
-			r.URL.Path = "/index.html"
-		}
+	mxRouter.PathPrefix("/static").Handler(http.FileServer(http.Dir("dist/")))
+	mxRouter.PathPrefix("/").HandlerFunc(indexHandler("dist/index.html"))
 
-		fs.ServeHTTP(w, r)
-	})).Methods("GET")
+	corsRouter := cors.New(cors.Options{
+		AllowedOrigins:   []string{"http://localhost:1337"},
+		AllowCredentials: true,
+	})
 
-	err := http.ListenAndServe(":1337", mxRouter)
+	handler := corsRouter.Handler(mxRouter)
+
+	err := http.ListenAndServe(":1337", handler)
 	if err != nil {
 		log.Fatal("Error starting the server : ", err)
 		return
