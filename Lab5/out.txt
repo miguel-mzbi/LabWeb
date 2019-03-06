@@ -1,0 +1,1665 @@
+[]interface {}{
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/0dl567",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Person",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "American singer",
+                    },
+                },
+                "http://schema.googleapis.com/detailedDescription": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/articleBody": []interface {}{
+                            map[string]interface {}{
+                                "@value": "Taylor Alison Swift is an American singer-songwriter. As one of the world's leading contemporary recording artists, she is known for narrative songs about her personal life, which has received widespread media coverage.\n",
+                            },
+                        },
+                        "http://schema.org/license": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Taylor_Swift",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/image": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/contentUrl": []interface {}{
+                            map[string]interface {}{
+                                "@value": "http://t0.gstatic.com/images?q=tbn:ANd9GcST848UJ0u31E6aoQfb2nnKZFyad7rwNF0ZLOCACGpu4jnboEzV",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Begin_Again_(Taylor_Swift_song)",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+                "http://schema.org/url": []interface {}{
+                    map[string]interface {}{
+                        "@value": "http://taylorswift.com/",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(1234.214722),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/MusicAlbum",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Studio album by Taylor Swift",
+                    },
+                },
+                "http://schema.googleapis.com/detailedDescription": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/articleBody": []interface {}{
+                            map[string]interface {}{
+                                "@value": "Taylor Swift is the self-titled debut studio album by American singer-songwriter Taylor Swift, released on October 24, 2006, by Big Machine Records. ",
+                            },
+                        },
+                        "http://schema.org/license": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Taylor_Swift_(album)",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+                "@id": "http://g.co/kg/m/03g7rsz",
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(501.487671),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+    },
+    map[string]interface {}{
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/MusicAlbum",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Studio album by Taylor Swift",
+                    },
+                },
+                "http://schema.googleapis.com/detailedDescription": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/articleBody": []interface {}{
+                            map[string]interface {}{
+                                "@value": "Red is the fourth studio album by American singer-songwriter Taylor Swift. It was released on October 22, 2012, by Big Machine Records, as the follow-up to her third studio album, Speak Now. ",
+                            },
+                        },
+                        "http://schema.org/license": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Red_(Taylor_Swift_album)",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/image": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_RED_Tour_(8642419792).jpg",
+                            },
+                        },
+                        "http://schema.org/contentUrl": []interface {}{
+                            map[string]interface {}{
+                                "@value": "http://t0.gstatic.com/images?q=tbn:ANd9GcQBFEwFYnEDjgLRwYNyNnqqMWxG9fS7Fc4Yn6WyxvkZ6MnpPCfv",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Red",
+                    },
+                },
+                "@id": "http://g.co/kg/m/0l8mh7y",
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(479.379181),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11f06kgm76",
+                "@type": []interface {}{
+                    "http://schema.org/MusicAlbum",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Studio album by Taylor Swift",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Reputation",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(406.754333),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Fearless",
+                    },
+                },
+                "@id":   "http://g.co/kg/m/04glrxj",
+                "@type": []interface {}{
+                    "http://schema.org/MusicAlbum",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Studio album by Taylor Swift",
+                    },
+                },
+                "http://schema.googleapis.com/detailedDescription": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/license": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Fearless_(Taylor_Swift_album)",
+                            },
+                        },
+                        "http://schema.org/articleBody": []interface {}{
+                            map[string]interface {}{
+                                "@value": "Fearless is the second studio album by American singer-songwriter Taylor Swift. The album was released on November 11, 2008, by Big Machine Records. As with her first album, Taylor Swift, Swift wrote or co-wrote all thirteen tracks on Fearless. ",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/image": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/contentUrl": []interface {}{
+                            map[string]interface {}{
+                                "@value": "http://t2.gstatic.com/images?q=tbn:ANd9GcTLjFQuuo4Lx364_sdPlqcRUnLLSnRpfGvD4-2a5J-bnrIZVvlj",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_-_Fearless_Tour_-_Los_Angeles_05.jpg",
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(362.709808),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Event",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Award ceremony",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "2009 MTV Video Music Awards",
+                    },
+                },
+                "@id": "http://g.co/kg/m/0z688m1",
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(360.493225),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/011lmk0n",
+                "@type": []interface {}{
+                    "http://schema.org/MusicAlbum",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Studio album by Taylor Swift",
+                    },
+                },
+                "http://schema.googleapis.com/detailedDescription": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album)",
+                            },
+                        },
+                        "http://schema.org/articleBody": []interface {}{
+                            map[string]interface {}{
+                                "@value": "1989 is the fifth studio album by American singer-songwriter Taylor Swift, released on October 27, 2014 through Big Machine Records. ",
+                            },
+                        },
+                        "http://schema.org/license": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/image": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/contentUrl": []interface {}{
+                            map[string]interface {}{
+                                "@value": "http://t1.gstatic.com/images?q=tbn:ANd9GcS6iqOwcmtENxZtJdWO2l_Dma-iW-LknVzw6GCas4Eu37uZWF9u",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://commons.wikimedia.org/wiki/File:1989_album_logo.png",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "1989",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(351.087189),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/0cmdv8y",
+                "@type": []interface {}{
+                    "http://schema.org/MusicAlbum",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Studio album by Taylor Swift",
+                    },
+                },
+                "http://schema.googleapis.com/detailedDescription": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/articleBody": []interface {}{
+                            map[string]interface {}{
+                                "@value": "Speak Now is the third studio album by American singer-songwriter Taylor Swift. It was released on October 25, 2010, by Big Machine Records. ",
+                            },
+                        },
+                        "http://schema.org/license": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Speak_Now",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/image": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/contentUrl": []interface {}{
+                            map[string]interface {}{
+                                "@value": "http://t2.gstatic.com/images?q=tbn:ANd9GcRgFyM0pMKbSNsy06Hh3Xl3v9UoAC8B_5pIcgre69X5vXUlKoaN",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_Speak_Now_Tour_(6966915023).jpg",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Speak Now",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(224.939133),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/03cl661",
+                "@type": []interface {}{
+                    "http://schema.org/MusicAlbum",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Album by Taylor Swift",
+                    },
+                },
+                "http://schema.googleapis.com/detailedDescription": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/articleBody": []interface {}{
+                            map[string]interface {}{
+                                "@value": "The Taylor Swift Holiday Collection, originally titled Sounds of the Season: The Taylor Swift Holiday Collection, is a Christmas EP by American singer Taylor Swift. ",
+                            },
+                        },
+                        "http://schema.org/license": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/The_Taylor_Swift_Holiday_Collection",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Sounds of the Season: The Taylor Swift Holiday Collection",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(190.237961),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Event",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Concert tour",
+                    },
+                },
+                "http://schema.googleapis.com/detailedDescription": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/articleBody": []interface {}{
+                            map[string]interface {}{
+                                "@value": "The 1989 World Tour was the fourth concert tour by American singer-songwriter Taylor Swift, in support of her fifth studio album, 1989. ",
+                            },
+                        },
+                        "http://schema.org/license": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/The_1989_World_Tour",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/image": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/contentUrl": []interface {}{
+                            map[string]interface {}{
+                                "@value": "http://t3.gstatic.com/images?q=tbn:ANd9GcQh84zGM9dKFJxG76q3N264jy70ESZ_bTmHZm2olAYtSEPuZJCh",
+                            },
+                        },
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://commons.wikimedia.org/wiki/File:The_1989_World_Tour_Logo.png",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "The 1989 World Tour",
+                    },
+                },
+                "@id": "http://g.co/kg/m/0127xmfr",
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(158.196808),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/0yt4l1m",
+                "@type": []interface {}{
+                    "http://schema.org/MusicAlbum",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Album by Speedy Ortiz",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(153.392838),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(153.199722),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/1s05p6_dt",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Speedy Ortiz",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11ddxxq44q",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Trinidad James",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(153.199722),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(153.005127),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Austin Kyle",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+                "@id":   "http://g.co/kg/g/1s05vmjpr",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(152.009781),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by TIFG",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+                "@id": "http://g.co/kg/g/1s05rr9_9",
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(150.974777),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift: Taylor Swift",
+                    },
+                },
+                "@id":   "http://g.co/kg/m/0crvk0b",
+                "@type": []interface {}{
+                    "http://schema.org/Movie",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "2007 film",
+                    },
+                },
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/0dljyf5",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/TVSeries",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "American television series",
+                    },
+                },
+                "http://schema.googleapis.com/detailedDescription": []interface {}{
+                    map[string]interface {}{
+                        "http://schema.org/url": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Journey_to_Fearless",
+                            },
+                        },
+                        "http://schema.org/articleBody": []interface {}{
+                            map[string]interface {}{
+                                "@value": "Journey to Fearless was a music concert series starring American singer-songwriter Taylor Swift. It aired as a three-night television special on The Hub starting on October 22, 2010. ",
+                            },
+                        },
+                        "http://schema.org/license": []interface {}{
+                            map[string]interface {}{
+                                "@value": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+                            },
+                        },
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Journey to Fearless",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(148.788498),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/0dxf3j9",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/MusicRecording",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Austin Kyle",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(145.336395),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Speedy Ortiz",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+                "@id":   "http://g.co/kg/m/0ytlxn7",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/MusicRecording",
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(145.336395),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(144.806259),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/0y96wyx",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/MusicRecording",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by TIFG",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+                "@id":   "http://g.co/kg/g/11fjx2f45v",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Event",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Event",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(143.990204),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Trinidad James",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+                "@id":   "http://g.co/kg/g/11c2q2w0kr",
+                "@type": []interface {}{
+                    "http://schema.org/MusicRecording",
+                    "http://schema.org/Thing",
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(141.679733),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/1q5jbnkwx",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by The Vikram Shankar Orchestra",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(138.682144),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/Movie",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Film",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift reputation Stadium Tour",
+                    },
+                },
+                "@id": "http://g.co/kg/g/11fj5c7p60",
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(137.237778),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+    },
+    map[string]interface {}{
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11c1n6tljq",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Movie",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "2015 film",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "The 1989 World Tour Live",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(136.537552),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/1q5jdk6r4",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Jon Schmidt",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(135.838669),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11c601grdh",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Matthew Koma and The Knocks",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "I Wish (My Taylor Swift)",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(134.864151),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11fj2rrk6f",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Event",
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift Vs Katy Perry",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(132.257233),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(130.286835),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Movie",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "2012 film",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift: American Beauty",
+                    },
+                },
+                "@id": "http://g.co/kg/m/0_mhbzf",
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+                "@id":   "http://g.co/kg/g/11b6d98b9g",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(129.10614),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift",
+                    },
+                },
+                "@id": "http://g.co/kg/g/11b6cftndw",
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(129.10614),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Event",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "54 Sings Taylor Swift",
+                    },
+                },
+                "@id":   "http://g.co/kg/g/11g_zjskbb",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Event",
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(118.619408),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11c1nhrmx9",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/MusicRecording",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "1989 (Taylor Swift)",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(117.340675),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11f2b0kdd0",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Illustrial",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Blank Space (Taylor Swift)",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(116.279083),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11f5vbkjch",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "1989 (Taylor Swift)",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(115.181969),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/Event",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Concert tour",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift Fearless 2009 Tour",
+                    },
+                },
+                "@id": "http://g.co/kg/m/05v7c4l",
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(109.722961),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11b8c6sv71",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Anthem Lights",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift Mash-Up",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(107.48716),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/0y6000d",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Movie",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "2010 film",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift: Speak Now",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(105.197784),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11f6cqsg6w",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/TouristAttraction",
+                    "http://schema.org/Event",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Event",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "2019 CMA Music Festival",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(103.33931),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11f29x_kwm",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/MusicRecording",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Illustrial",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Blank Space (Taylor Swift)",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(102.768356),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Video game",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "I Love Taylor Swift",
+                    },
+                },
+                "@id":   "http://g.co/kg/g/11c2yfj15h",
+                "@type": []interface {}{
+                    "http://schema.org/VideoGame",
+                    "http://schema.org/Thing",
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(102.393494),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/m/0z4fs9j",
+                "@type": []interface {}{
+                    "http://schema.org/MusicRecording",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by The Vikram Shankar Orchestra",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Red (Taylor Swift Cover)",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(102.393494),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@type": []interface {}{
+                    "http://schema.org/MusicAlbum",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Album by Dave Giles",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "The Taylor Swift EP",
+                    },
+                },
+                "@id": "http://g.co/kg/g/11dzt0f6wh",
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(101.81646),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11g_zjtnz0",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Event",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Event",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "54 Sings Taylor Swift",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(101.62001),
+            },
+        },
+    },
+    map[string]interface {}{
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(101.46769),
+            },
+        },
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11h3mzgkpx",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Event",
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift Tribute",
+                    },
+                },
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11clvfx6x7",
+                "@type": []interface {}{
+                    "http://schema.org/MusicRecording",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Anthem Lights",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Taylor Swift Mash-Up",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(100.182709),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Ariana Grande &amp; Taylor Swift",
+                    },
+                },
+                "@id":   "http://g.co/kg/g/11fftpg0t6",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/Event",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Event",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(99.892143),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11bynmw4gg",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Instalok",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(99.233971),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11g0ldyt4s",
+                "@type": []interface {}{
+                    "http://schema.org/Thing",
+                    "http://schema.org/MusicRecording",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Song by Sugarland",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Babe",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(97.874626),
+            },
+        },
+    },
+    map[string]interface {}{
+        "@type": []interface {}{
+            "http://schema.googleapis.com/EntitySearchResult",
+        },
+        "http://schema.org/result": []interface {}{
+            map[string]interface {}{
+                "@id":   "http://g.co/kg/g/11f630yv8j",
+                "@type": []interface {}{
+                    "http://schema.org/TVEpisode",
+                    "http://schema.org/Thing",
+                },
+                "http://schema.org/description": []interface {}{
+                    map[string]interface {}{
+                        "@value": "Saturday Night Live episode (season 43, episode 5)",
+                    },
+                },
+                "http://schema.org/name": []interface {}{
+                    map[string]interface {}{
+                        "@value": "November 11 - Tiffany Haddish",
+                    },
+                },
+            },
+        },
+        "http://schema.googleapis.com/resultScore": []interface {}{
+            map[string]interface {}{
+                "@value": float64(97.108948),
+            },
+        },
+    },
+}
