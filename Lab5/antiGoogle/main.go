@@ -14,7 +14,7 @@ func main() {
 	params.Add("query", "Taylor Swift")
 	params.Add("limit", "50")
 	params.Add("indent", "true")
-	params.Add("key", "INSERT API KEY HERE"
+	params.Add("key", "INSERT API KEY HERE")
 	par := params.Encode()
 
 	addr := serviceURL + "?" + par
