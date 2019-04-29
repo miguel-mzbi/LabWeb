@@ -1,0 +1,35 @@
+<script src="https://solid.github.io/solid-auth-client/dist/solid-auth-client.bundle.js"></script>
+<script src="https://linkeddata.github.io/rdflib.js/dist/rdflib.min.js"></script>
+<script>
+solid.auth.trackSession(session => {
+  if (!session)
+    console.log('The user is not logged in')
+  else
+    console.log(`The user is ${session.webId}`)
+    var timeout = 5000
+    var store = $rdf.graph()
+    var fetcher = new $rdf.Fetcher(store, timeout)
+    fetcher.nowOrWhenFetched(session.webId, function(ok, body, xhr) {
+        if (!ok) {
+            console.log("Oops, something happened and couldn't fetch data");
+        } else {
+            var knows = $rdf.sym('http://xmlns.com/foaf/0.1/knows')
+            var me = $rdf.sym(session.webId);
+            store.add(me, knows, "Gerardo")
+            var friend = store.any(me, knows)
+            console.log(friend)
+        }
+    })
+})
+
+async function popupLogin() {
+  let session = await solid.auth.currentSession();
+  let popupUri = 'https://solid.community/common/popup.html';
+  if (!session)
+    session = await solid.auth.popupLogin({ popupUri });
+  alert(`Logged in as ${session.webId}`);
+}
+
+</script>
+
+<input id="login" type="button" value="login" onclick="popupLogin();" />
